@@ -73,16 +73,11 @@ d3.json(url).then(function(data) {
                 axis: {range: [0,10], tickmode: "linear", tick0: 2, dtick: 2},
                 bar: {color: "black"},
                 steps: [
-                    {range: [0, 1], color: "rgba(255, 0, 0, 0.7)"},  
-                    {range: [1, 2], color: "rgba(0, 255, 0, 0.7)"},   
-                    {range: [2, 3], color: "rgba(0, 0, 255, 0.7)"},   
-                    {range: [3, 4], color: "rgba(255, 255, 0, 0.7)"},  
-                    {range: [4, 5], color: "rgba(255, 0, 255, 0.7)"},  
-                    {range: [5, 6], color: "rgba(0, 255, 255, 0.7)"}, 
-                    {range: [6, 7], color: "rgba(255, 128, 0, 0.7)"},  
-                    {range: [7, 8], color: "rgba(128, 0, 255, 0.7)"},   
-                    {range: [8, 9], color: "rgba(0, 128, 0, 0.7)"},    
-                    {range: [9, 10], color: "rgba(0, 0, 0, 0.7)"}       
+                    {range: [0, 2], color: "rgba(255, 0, 0, 0.7)"},   // Red
+                    {range: [2, 4], color: "rgba(255, 128, 0, 0.7)"}, // Orange
+                    {range: [4, 6], color: "rgba(255, 255, 0, 0.7)"}, // Yellow
+                    {range: [6, 8], color: "rgba(0, 255, 0, 0.7)"},   // Green
+                    {range: [8, 10], color: "rgba(0, 128, 255, 0.7)"} // Blue
                 ]
             } 
         };
