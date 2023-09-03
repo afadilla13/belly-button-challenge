@@ -65,7 +65,7 @@ The following task is advanced and therefore optional.
 Deploy your app to a free static page hosting service, such as GitHub Pages.
 
 Here is the link:
-https://afadilla13.github.io/
+https://afadilla13.github.io/index.html
 
 Have fun exploring the Belly Button Biodiversity dataset and creating your interactive dashboard!
 
