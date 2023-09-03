@@ -24,7 +24,7 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Inter
 - Use `otu_ids` as the labels for the bar chart.
 - Use `otu_labels` as the hovertext for the chart.
 
-![Alt text](relative%20path/to/img.jpg?raw=true "Top 10 OTUs Present")
+![Top 10 OTUs Present](https://github.com/afadilla13/belly-button-challenge/assets/128363337/c9ddd1d5-d050-46e9-9442-46b178a02fdf)
 
 ### 2. Bubble Chart
 
@@ -35,7 +35,7 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Inter
 - Use `otu_ids` for the marker colors.
 - Use `otu_labels` for the text values.
 
-![Alt text](relative%20path/to/img.jpg?raw=true "Bacteria Per Sample")
+![Bacteria Per Sample](https://github.com/afadilla13/belly-button-challenge/assets/128363337/b75fd3ad-fb25-493e-b43b-68aafb9bc6dd)
 
 ### 3. Sample Metadata
 
@@ -58,13 +58,13 @@ The following task is advanced and therefore optional.
 - You will need to modify the example gauge code to account for values ranging from 0 through 9.
 - Update the chart whenever a new sample is selected.
 
-![Alt text](relative%20path/to/img.jpg?raw=true "Washing Frequency")
+![Washing Frequency](https://github.com/afadilla13/belly-button-challenge/assets/128363337/0b67a89b-b87f-4ae3-b667-b1086f90bdb7)
 
 ## Deployment
 
 Deploy your app to a free static page hosting service, such as GitHub Pages.
 
-file:///C:/Users/akbar/belly-button-challenge/index.html
+[Link to your deployed app](file:///C:/Users/akbar/belly-button-challenge/index.html)
 
 Have fun exploring the Belly Button Biodiversity dataset and creating your interactive dashboard!
 
