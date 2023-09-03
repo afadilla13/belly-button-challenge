@@ -71,7 +71,7 @@ d3.json(url).then(function(data) {
               mode: "gauge+number",
               gauge: {
                 axis: { range: [0, 10], tickmode: "linear", tick0: 2, dtick: 2 },
-                bar: { color: "darkblue" }, // Change "black" to "darkblue" for better visibility
+                bar: { color: "darkblue" },
                 steps: [
                     { range: [0, 1], color: "rgba(255, 255, 255, 0)" },
                     { range: [1, 2], color: "rgba(232, 226, 202, .5)" },
