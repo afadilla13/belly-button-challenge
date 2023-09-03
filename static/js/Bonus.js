@@ -61,30 +61,30 @@ d3.json(url).then(function(data) {
           
           // Define the configuration for the gauge chart trace
           let trace2 = {
-              value: washFrequency,
-              domain: {x: [0,1], y: [0,1]},
-              title: {
-                  text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week",
-                  font: {color: "black", size: 16}
-              },
-              type: "indicator",
-              mode: "gauge+number",
-              gauge: {
-                axis: { range: [0, 10], tickmode: "linear", tick0: 2, dtick: 2 },
-                bar: { color: "darkblue" },
+            value: washFrequency,
+            domain: {x: [0,1], y: [0,1]},
+            title: {
+                text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week",
+                font: {color: "black", size: 16}
+            },
+            type: "indicator",
+            mode: "gauge+number",
+            gauge: {
+                axis: {range: [0,10], tickmode: "linear", tick0: 2, dtick: 2},
+                bar: {color: "black"},
                 steps: [
-                    { range: [0, 1], color: "rgba(255, 255, 255, 0)" },
-                    { range: [1, 2], color: "rgba(232, 226, 202, .5)" },
-                    { range: [2, 3], color: "rgba(210, 206, 145, .5)" },
-                    { range: [3, 4], color: "rgba(202, 209, 95, .5)" },
-                    { range: [4, 5], color: "rgba(184, 205, 68, .5)" },
-                    { range: [5, 6], color: "rgba(170, 202, 42, .5)" },
-                    { range: [6, 7], color: "rgba(142, 178, 35 , .5)" },
-                    { range: [7, 8], color: "rgba(110, 154, 22, .5)" },
-                    { range: [8, 9], color: "rgba(50, 143, 10, 0.5)" },
-                    { range: [9, 10], color: "rgba(14, 127, 0, .5)" },
+                    {range: [0, 1], color: "rgba(255, 0, 0, 0.7)"},  
+                    {range: [1, 2], color: "rgba(0, 255, 0, 0.7)"},   
+                    {range: [2, 3], color: "rgba(0, 0, 255, 0.7)"},   
+                    {range: [3, 4], color: "rgba(255, 255, 0, 0.7)"},  
+                    {range: [4, 5], color: "rgba(255, 0, 255, 0.7)"},  
+                    {range: [5, 6], color: "rgba(0, 255, 255, 0.7)"}, 
+                    {range: [6, 7], color: "rgba(255, 128, 0, 0.7)"},  
+                    {range: [7, 8], color: "rgba(128, 0, 255, 0.7)"},   
+                    {range: [8, 9], color: "rgba(0, 128, 0, 0.7)"},    
+                    {range: [9, 10], color: "rgba(0, 0, 0, 0.7)"}       
                 ]
-            }
+            } 
         };
   
           // Define the layout settings for the gauge chart
