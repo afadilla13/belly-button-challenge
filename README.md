@@ -58,7 +58,7 @@ The following task is advanced and therefore optional.
 - You will need to modify the example gauge code to account for values ranging from 0 through 9.
 - Update the chart whenever a new sample is selected.
 
-![Washing Frequency](https://github.com/afadilla13/belly-button-challenge/assets/128363337/0b67a89b-b87f-4ae3-b667-b1086f90bdb7)
+![Washing Frequency](https://github.com/afadilla13/belly-button-challenge/assets/128363337/cf844056-06a1-4d83-b8ef-2b5a8bf806fd)
 
 ## Deployment
 
